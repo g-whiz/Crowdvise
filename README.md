@@ -1,2 +1,2 @@
 # Crowdvise
-Crowdsourcing financial advice froma community of licensed financial advisors.
+Crowdsourcing financial advice from a community of licensed financial advisors.
