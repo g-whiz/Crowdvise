@@ -1,4 +1,5 @@
 import { AdviceSeeker, Experience, InvestmentAdvisor, RiskTolerance, User } from './user';
+import { AdviceReply, AdviceRequest, Comment, Tag} from './advice'
 
 let Advisor1 = {
 	id:1,
@@ -59,4 +60,23 @@ let Investor2 = {
 	experience: Experience.noExperience,
     numQuestions: 1,
     riskTolerance: RiskTolerance.low,
+}
+
+let Advicereq1 = {
+    timestamp: Date.now,
+    comments: [],
+    author:Investor2,
+    replies: [],
+    title: "Should I Retire in Florida?",
+    body: "I currently live in NY, would it be cheaper there?",
+    tags:[Tag.retirement,Tag.savings]
+}
+let Advicereq2 = {
+    timestamp: Date.now,
+    comments: [],
+    author:Investor1,
+    replies: [],
+    title: "Should I sell my Facebook Stock?",
+    body: "Do you think the fake news discussion would negatively impact value?",
+    tags:[Tag.dayTrading]
 }
