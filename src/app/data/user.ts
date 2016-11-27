@@ -25,7 +25,7 @@ interface InvestmentAdvisor extends User {
 	website? : string;
 
 	/* Qualifications */
-	qualifications : Qualifications;
+	qualifications? : Qualifications;
 
 	// An integer representing the reputation of this InvestmentAdvisor.
 	// Negative is very bad. Higher is better.
