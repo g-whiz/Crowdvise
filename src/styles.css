@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+h1 {
+  font-family: 'Michroma', sans-serif;
+}
+
+body {
+  font-family: 'Sintony', sans-serif;
+}
+
+#banner {
+  width: 50%;
+}
