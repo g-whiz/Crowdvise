@@ -12,12 +12,15 @@ interface User {
 
 	// A User's last name
 	lastName : string;
+
+	email : string;
+
+	password: string;
 }
 
 export
 interface InvestmentAdvisor extends User {
 	/* ContactDetails */
-	email? : string;
 	telNo? : string;
 	website? : string;
 
